@@ -91,6 +91,12 @@ p, .card-info {
 
 .share-panel {
     background-color: var(--very-dark-grayish-blue);
+    margin: 0;
+    padding: 0;
+}
+
+.share-word {
+    color: var(--grayish-blue);
 }
 
 /*attribution*/ 
