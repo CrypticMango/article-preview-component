@@ -76,8 +76,8 @@ p, .card-info {
 
 .share-main {
     background-color: var(--light-grayish-blue);
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     margin-left: 45px;
     border-radius: 20px;
     border: 1px solid var(--light-grayish-blue);
@@ -91,12 +91,27 @@ p, .card-info {
 
 .share-panel {
     background-color: var(--very-dark-grayish-blue);
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .share-word {
     color: var(--grayish-blue);
+    margin-right: 20px;
+    letter-spacing: .4rem;
+}
+
+.share-secondary {
+    background-color: var(--light-grayish-blue);
+    width: 30px;
+    height: 30px;
+    margin-left: 56px;
+    border-radius: 20px;
+    border: 1px solid var(--light-grayish-blue);
 }
 
 /*attribution*/ 
