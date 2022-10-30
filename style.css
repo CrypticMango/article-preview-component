@@ -24,7 +24,7 @@ p {
 h1 {
     margin-top: 25px;
     font-size: 16px;
-    padding-right: 1rem;
+    padding-right: 2.5rem;
 }
 
 h1, .avatar-name {
@@ -39,16 +39,16 @@ p, .card-info {
 
 .card-info {
     line-height: 20px;
-    margin-right: 15px;
+    padding-right: 45px;
 }
 
 .whole-card {
-    margin: 60px 20px;
+    margin: 0px 20px 15px 20px;
     border-radius: 10px;
 }
 
 .card-content {
-    padding: .5rem 2rem 1.5rem 2rem;
+    padding: .5rem 0rem 1.3rem 2rem;
     background-color: white;
     border-radius: 0px 0px 10px 10px;
 }
@@ -65,7 +65,7 @@ p, .card-info {
 
 .michelle-panel {
     display: flex;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .michelle {
@@ -83,13 +83,11 @@ p, .card-info {
     background-color: var(--light-grayish-blue);
     width: 30px;
     height: 30px;
-    margin-left: 45px;
+    margin-left: 50px;
     border-radius: 20px;
     border: 1px solid var(--light-grayish-blue);
-}
-
-.share-main:active {
-    background-color: var(--grayish-blue);
+    position: relative;
+    top: 5px;
 }
 
 /*share panel start with animation*/
@@ -98,19 +96,18 @@ p, .card-info {
     background-color: var(--very-dark-grayish-blue);
     margin: auto;
     border-radius: 0px 0px 10px 10px;
-    padding: 20px 30px;
+    padding: 17px 30px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:center;
+    justify-content: space-between;
     position: absolute;
-    top: 35.5rem;
+    top: 33.3rem;
     width: 275px;
     display: none;
 }
 
 .share-word {
     color: var(--grayish-blue);
-    margin-right: 20px;
     letter-spacing: .4rem;
 }
 
@@ -118,9 +115,11 @@ p, .card-info {
     background-color: var(--light-grayish-blue);
     width: 30px;
     height: 30px;
-    margin-left: 56px;
+    margin-left: 50px;
     border-radius: 20px;
     border: 1px solid var(--light-grayish-blue);
+    position: relative;
+    top: -3px;
 }
 
 /*attribution*/ 
@@ -135,4 +134,7 @@ p, .card-info {
 
 .fa-brands {
     font-size: 25px;
+    color: var(--very-dark-grayish-blue);
+    text-align: center;
+    margin-top: 15px;
 }
