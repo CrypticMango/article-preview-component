@@ -105,6 +105,7 @@ p, .card-info {
     position: absolute;
     top: 35rem;
     width: 275px;
+    display: none;
 }
 
 .share-word {
