@@ -6,5 +6,9 @@ shareButton.addEventListener("click", showPanel);
 shareButtonPanel.addEventListener("click", showMichelle);
 
 function showPanel() {
-    panel.style.display = "flex"
+    panel.style.display = "flex";
+}
+
+function showMichelle() {
+    panel.style.display = "none";
 }

@@ -48,7 +48,7 @@ p, .card-info {
 }
 
 .card-content {
-    padding: .5rem 2rem 1rem 2rem;
+    padding: .5rem 2rem 1.5rem 2rem;
     background-color: white;
     border-radius: 0px 0px 10px 10px;
 }
@@ -103,7 +103,7 @@ p, .card-info {
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 35rem;
+    top: 35.5rem;
     width: 275px;
     display: none;
 }
