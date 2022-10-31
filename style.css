@@ -138,3 +138,37 @@ p, .card-info {
     text-align: center;
     margin-top: 15px;
 }
+
+@media (min-width: 700px) {
+    h1 {
+        font-size: 20px;
+
+    }
+    
+    .whole-card {
+        display: flex;
+        max-width: 790px;
+    }
+
+    .card-content {
+        border-radius: 0px 10px 10px 0px;
+        height: 252px;
+        padding-left: 40px;
+    }
+
+    .green-drawers {
+        position: relative;
+        top: 0px;
+        left: 70px;
+        border-radius: 10px 0px 0px 10px;
+        width: 350px;
+    }
+
+    .michelle-panel {
+        margin-top: 25px;
+    }
+
+    .share-main {
+        margin-left: 150px;
+    }
+}
