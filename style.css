@@ -152,7 +152,7 @@ p, .card-info {
 
     .card-content {
         border-radius: 0px 10px 10px 0px;
-        height: 252px;
+        height: 251.5px;
         padding-left: 40px;
     }
 
@@ -170,5 +170,26 @@ p, .card-info {
 
     .share-main {
         margin-left: 150px;
+    }
+
+    .share-main {
+        cursor: pointer;
+    }
+
+    .share-panel {
+        border-radius: 10px;
+        width: 190px;
+        justify-content: space-around;
+        position: fixed;
+        top: 351px;
+        left: 920px;
+    }
+
+    .share-word {
+        cursor: pointer;
+    }
+
+    .share-secondary {
+        display: none;
     }
 }
