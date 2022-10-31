@@ -14,7 +14,7 @@ body {
     min-height: 100vh;
     font-size: 13px;
     font-family: 'Manrope', sans-serif;
-    background-color: var(--grayish-blue);
+    background-color: var(--light-grayish-blue);
 }
 
 p {
