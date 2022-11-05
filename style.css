@@ -112,14 +112,18 @@ p, .card-info {
 }
 
 .share-secondary {
-    background-color: var(--light-grayish-blue);
+    background-color: var(--desaturated-dark-blue);
     width: 30px;
     height: 30px;
     margin-left: 50px;
     border-radius: 20px;
-    border: 1px solid var(--light-grayish-blue);
+    border: 1px solid var(--very-dark-grayish-blue);
     position: relative;
     top: -3px;
+}
+
+svg path{
+    fill: var(--light-grayish-blue);
 }
 
 /*attribution*/ 
