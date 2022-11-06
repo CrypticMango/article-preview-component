@@ -184,9 +184,8 @@ svg path{
         border-radius: 10px;
         width: 190px;
         justify-content: space-around;
-        position: fixed;
-        top: 351px;
-        left: 920px;
+        position: absolute;
+        translate: 600px -170px;
     }
 
     .share-word {
